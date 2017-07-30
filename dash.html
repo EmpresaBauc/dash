@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title> DashBoard </title>
+        <link rel="stylesheet" href="css/main.css">
+
+      <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    </head>
+
+    <body>
+      <div class="container">
+        <!--cabeçalho que futuramente pode ser substituido por header-->
+        <div class="row blue">
+          <h1> Dashboard Do Colaborador <h1>
+        </div>
+
+
+        <div class="row yellow">
+          <!--parte esquerda da pagina contendo a imagem do colaborador, nome e titulos-->
+          <div class="col-sm-3 red">
+            <div class="text-center">
+              <h3>Wellignton Cassio<h3>
+              <img src="images.png" class="img-thumbnail" alt="Colaborador">
+              <h3>Titulos Conquistados<h3>
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+            </div>
+          </div>
+
+          <!-- parte central da pagina que contem os indicadores do chat e informações derais-->
+          <div class="col-sm-3 green">
+
+
+                    <!--parte responsavel por selecionar o periodo -->
+                    <div class="row purple">
+                      <div class="text-center">
+                        <h3> Indicadores de Chat<h3>
+                      </div>
+                      <div class="col-sm-4">
+                          <h6> Periodo de: <h6>
+                      </div>
+
+                      <div class="col-sm-8">
+                          <div class="form-group">
+                            <div class='input-group date' id='datetimepicker5'>
+                                <input type='text' class="form-control" />
+                                <span class="input-group-addon">
+                                    <span class="glyphicon glyphicon-calendar"></span>
+                                </span>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="row blue">
+                      <div class="col-sm-4">
+                          <h6> Até :<h6>
+                      </div>
+
+                      <div class="col-sm-8">
+                          <div class="form-group">
+                            <div class='input-group date' id='datetimepicker5'>
+                                <input type='text' class="form-control" />
+                                <span class="input-group-addon">
+                                    <span class="glyphicon glyphicon-calendar"></span>
+                                </span>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+
+
+              <!-- resto das informações centrais-->
+
+                    <h5>Atendimentos demandados:<h5>
+                    <h5>Atendimentos Realizados:<h5>
+                    <h5>Taxa de perda:<h5>
+                    <h5>Fim até 15 minutos:<h5>
+                    <h5>TMA:<h5>
+                    <h5>Avancino:<h5>
+                    <h5>Eficiência:<h5>
+                    <h5>Questionário Interno:<h5>
+
+                    <div class="text-center">
+                      <h3> Informações Gerais<h3>
+                    </div>
+                    <h5> Artigos no Info Varejo:<h5>
+                    <h5> Documentos B.C <h5>
+                    <h5> SLA último mês <h5>
+
+          </div>
+
+          <!-- parte responsavel pelos graficos-->
+          <div class="col-sm-6 red">
+              <h4> Conhecimento Técnico<h4>
+          </div>
+        </div>
+
+
+
+      </div>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    </body>
+</html>
